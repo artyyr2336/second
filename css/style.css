@@ -235,13 +235,66 @@ a:hover {
   padding-top: 120px;
   padding-bottom: 125px;
 
+
 }
+.price__items-block{
+  background-color: white;
+  transition: 0.5s;
+  margin-top: 40px;
 
+}
+.head__price{
+  background-image: url(/img/Rectangle14.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 211px;
+  color: white;
+}
+.price__items__block-sum{
+  font-size: 50px;
+}
+.price__items__block-sum sup{
+  font-size: 25px;
+}
+.price__items__block-sum sub{
+  font-size: 17px;
+}
+.price__items-block p{
+  text-align: center;
+  color: #212121;
+  font-size: 17px;
+  max-width: 175px;
+  border-bottom: 1px solid #bfbfbf;
+  margin: 0 auto;
+  
+}
+.price__block__center{
+  margin: 50px;
+}
+.price___footer{
+  padding: 60px 0;
+}
+.price___footer button{
+  cursor: pointer;
+  border: 2px solid #212121;
+  color: #212121;
+  background: transparent;
+  padding: 15px 30px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.price__items-block:hover{
+  box-shadow:0px 0px 9px 0px rgba(0,0,0,0.92);
+-webkit-box-shadow:0px 0px 9px 0px rgba(0,0,0,0.92);
+-moz-box-shadow:0px 0px 9px 0px rgba(0,0,0,0.92);
+transition: 0.5s;
 
-
-
-
-
+}
+.price__items-block:hover button{
+  background-color: #00897b;
+  transition: 0.5s;
+  
+}
 
 
 
