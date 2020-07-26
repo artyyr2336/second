@@ -106,11 +106,12 @@ a:hover {
   margin-bottom: 30px;
 }
 .services__blocks {
-  border: 2px solid white;
+  border: 2px solid #00897b;
   background-color: white;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.5s;
 }
 .services__blocks-logo {
   margin: 20px 0;
@@ -133,17 +134,20 @@ a:hover {
   transition: 0.5s;
 }
 
-.services__blocks a:hover {
-  border: 1px solid white;
+.services__blocks:hover a {
+  border: 1px solid black;
   padding: 15px;
   color: white;
   background-color: #00897b;
   text-decoration: none;
+  
 }
 .services__blocks:hover {
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
+  background-color: #00897b;
+  transition: 0.5s;
 }
 
 .items__text {
@@ -184,6 +188,24 @@ a:hover {
 }
 .items__produc-img-1{
   width: 80%;
+}
+.items__produc-img-1:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  
+}
+.text{
+  display:none;
+}
+.items__produc-img-1:hover .text{
+  display: block;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 3;
+  text-align: center;
 }
 .items__product-1{
   margin-top: 50px;
