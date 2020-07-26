@@ -229,6 +229,13 @@ a:hover {
   border: 1px solid #00cab6;
   transition: 0.5s;
 }
+.price{
+  text-align: center;
+  background-color: #f0f1f1;
+  padding-top: 120px;
+  padding-bottom: 125px;
+
+}
 
 
 
