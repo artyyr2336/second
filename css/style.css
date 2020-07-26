@@ -244,7 +244,7 @@ a:hover {
 
 }
 .head__price{
-  background-image: url(/img/Rectangle14.png);
+  background-image: url(../img/Rectangle14.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 211px;
