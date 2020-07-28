@@ -119,9 +119,10 @@ a:hover {
 .services__blocks {
   background-color: white;
   margin-bottom: 20px;
-  width: 150p;
+  width: 30%;
   transition: 0.5s;
   padding: 45px 0;
+  margin: 10px 10px;
 
 }
 .services__blocks-logo {
@@ -367,58 +368,3 @@ a:hover {
 }
 
 
-
-
-/* lg-размер (<=1199px) */
-@media (max-width: 1199px) {
-  /* CSS для ширины от 992px до 1199px */
-}
-
-/* md-размер (<=991px) */
-@media (max-width: 991px) {
-  /* CSS для ширины от 768px до 991px */
-}
-
-
-
-/* sm-размер (<=768px) */
-@media (max-width: 767px) { 
-  .button_portfolio-block {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  .button_portfolio {
-    margin: 10px 0;
-  }
-}
-
-
-/* xs-размер (<=575px) */
-@media (max-width: 575px) {
-
-  .items__ul li {
-    margin: 10px auto;
-  }
-
-  .items__ul a {
-    padding: 0 50px;
-  }
-
-}
-
-
-
-
-@media screen and (max-width: 767px) {
-  .button_portfolio-block {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  .button_portfolio {
-    margin: 10px 0;
-  }
-}
