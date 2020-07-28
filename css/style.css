@@ -38,7 +38,7 @@ a:hover {
 .header > div {
   padding: 180px 0;
   text-align: center;
-  background-image: url(../img/header.png);
+  background-image: url(./img/header.png);
   background-size: cover;
   background-position: 0 100%;
 }
