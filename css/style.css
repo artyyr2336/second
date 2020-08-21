@@ -41,7 +41,7 @@ a:hover {
 .header > div {
   padding: 180px 0;
   text-align: center;
-  background-image: url(./img/header.png);
+  background-image: url(../img/header.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 100%;
@@ -119,10 +119,12 @@ a:hover {
 .services__blocks {
   background-color: white;
   margin-bottom: 20px;
-  width: 30%;
+  width: 300px;
   transition: 0.5s;
   padding: 45px 0;
   margin: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .services__blocks-logo {
